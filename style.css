@@ -186,7 +186,7 @@ header {
   font-weight: 600;
   font-size: 35px;
   line-height: 43px;
-  color: #000000;
+  color: #000;
   margin-top: 47px;
   margin-left: 20px;
 }
@@ -216,7 +216,7 @@ header {
   align-items: center;
   font-weight: 600;
   font-size: 35px;
-  color: #000000;
+  color: #000;
   margin-left: -122px;
 }
 
@@ -293,8 +293,8 @@ header {
 .other__test {
   display: flex;
   align-items: center;
-  margin-left: 0px;
-  margin-top: 0px;
+  margin-left: 0;
+  margin-top: 0;
 }
 
 .other__drive {
@@ -314,7 +314,7 @@ header {
 .other__testdrive {
   display: flex;
   align-items: center;
-  margin-top: 0px;
+  margin-top: 0;
   margin-left: 5px;
 }
 
@@ -331,8 +331,8 @@ header {
 }
 
 .other__point2 {
-  margin-top: 0px;
-  margin-left: 0px;
+  margin-top: 0;
+  margin-left: 0;
 }
 
 .other__vector4 {
@@ -347,9 +347,9 @@ header {
   align-items: center;
   width: 160px;
   height: 40px;
-  border: 2px solid #E51937;
+  border: 2px solid #e51937;
   box-sizing: border-box;
-  color: #E51937;
+  color: #e51937;
   background: #ffffff;
   margin-left: 38px;
   margin-top: 34px;
@@ -359,7 +359,7 @@ header {
   display: flex;
   align-items: center;
   margin-left: 36px;
-  margin-top: 0px;
+  margin-top: 0;
 }
 
 .center__v1 {
@@ -400,7 +400,7 @@ header {
 .content__right  {
   display: flex;
   align-items: center;
-  color: #ffffff;
+  color: #fff;
   font-weight: 500;
   font-size: 15px;
   line-height: 18px;
@@ -487,9 +487,9 @@ header {
   align-items: center;
   width: 160px;
   height: 40px;
-  border: 2px solid #ffffff;
+  border: 2px solid #fff;
   box-sizing: border-box;
-  color: #ffffff;
+  color: #fff;
   background: #e51937;
   margin-left: 33px;
   margin-top: 736px;
@@ -525,7 +525,7 @@ header {
 }
  
 .container__subtitle {
-  color: #ffffff;
+  color: #fff;
   font-weight: 500;
   font-size: 15px;
   line-height: 18px;
@@ -536,7 +536,7 @@ header {
 }
 
 .container__title-center {
-  color: #ffffff;
+  color: #fff;
   margin-top: 190px;
   margin-left: -270px;
 }
@@ -578,7 +578,7 @@ header {
 
 .container__center {
   margin-top: 700px;
-  margin-left: 0px;
+  margin-left: 0;
   width: 400px;
   height: 60px;
 }
@@ -612,8 +612,8 @@ header {
   box-sizing: border-box;
   color: #fff;
   background: #e51937;
-  margin-left: 0px;
-  margin-top: 0px;
+  margin-left: 0;
+  margin-top: 0;
 }
 
 .container__snap {
