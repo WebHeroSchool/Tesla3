@@ -111,7 +111,7 @@ header {
   font-weight: 600;
   font-size: 90px;
   line-height: 10px;
-  color: #000000;
+  color: #000;
   margin-left: 527px;
   margin-bottom: 40px;
   margin-top: 135px;
@@ -126,7 +126,7 @@ header {
   font-weight: normal;
   font-size: 15px;
   line-height: 18px;
-  color: #000000;
+  color: #000;
   margin-left: 590px;
   margin-top: 43px;
 }
@@ -350,7 +350,7 @@ header {
   border: 2px solid #e51937;
   box-sizing: border-box;
   color: #e51937;
-  background: #ffffff;
+  background: #fff;
   margin-left: 38px;
   margin-top: 34px;
 }
@@ -375,7 +375,7 @@ header {
   font-size: 70px;
   line-height: 85px;
   margin-left: 72px;
-  margin-top:99px;
+  margin-top: 99px;
   position: relative;
 }
 
@@ -420,12 +420,11 @@ header {
   align-items: center;
   margin-top: -379px;
   margin-left: 50px;
-  color: #ffffff;
+  color: #fff;
   font-size: 30px;
   line-height: 37px;
   white-space: nowrap;
 }
-
 
 .content__crisper {
   display: flex;
@@ -439,7 +438,6 @@ header {
   margin-left: -387px;
   margin-top: -120px;
 }
-
 
 .content__wifi {
   display: flex;
@@ -517,7 +515,7 @@ header {
 .container__title {
   margin-top: -750px;
   margin-left: 30px;
-  color: #ffffff;
+  color: #fff;
   font-size: 30px;
   line-height: 37px;
   width: 400px;
