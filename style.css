@@ -1,11 +1,13 @@
 body {
   font-family: 'montserratsemibold';
   font-style: normal;
+  overflow: auto;
 }
 
 header {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   width: 1800px;
   height: 40px;
 }
@@ -15,55 +17,54 @@ header {
   width: 166px;
   height: 51px;
   background: url(./images/logo.png);
-  margin-left: 34px;
   margin-top: 40px
 }
 
 .header__menu {
   display: flex;
-  justify-content: start;
-  flex-flow: row nowrap;
+  align-items: flex-start;
   width: 600px;
-  height: 40px;
-  margin-top: 42px;
-  margin-left: 259px;
+  height: 59px;
+  margin-top: 80px;
+  font-size: 15px;
 }
 
 .menu__link_modelS {
-  display: flex;
-  align-items: center;
   margin-left: 2px;
   margin-top: 0;
+  text-decoration: none;
+  color: #e51937;
 }
 
 .top__line {
-  display: flex;
-  align-items: center;
-  margin-left: -61px;
-  margin-top: 34px;
+  position: absolute;
+  width: 60px;
+  height: 2px;
+  left: 467.86px;
+  top: 65px
 }
 
 .menu__link_modelX {
-  display: flex;
-  align-items: center;
-  margin-left: 65px;
+  margin-left: 64px;
+  text-decoration: none;
+  color: #000;
 }
 
 .menu__link_model3 {
-  display: flex;
-  align-items: center;
-  margin-left: 26px;
+  margin-left: 25px;
+  text-decoration: none;
+  color: #000;
 }
 .menu__link_roadster{
-  display: flex;
-  align-items: center;
   margin-left: 44px;
+  text-decoration: none;
+  color: #000;
 }
 
 .menu__link_energy {
-  display: flex;
-  align-items: center;
   margin-left: 48px;
+  text-decoration: none;
+  color: #000;
 }
 
 .top__Energy {
@@ -75,23 +76,22 @@ header {
   justify-content: start;
   margin-left: 150px;
   margin-top: 43px;
+  font-size: 15px;
 }
 
 .menu__link_shop {
-  display: flex;
-  align-items: center;
   margin-left: -39px;
+  text-decoration: none;
+  color: #000;
 }
 
 .menu__link_entrance {
-  display: flex;
-  align-items: center;
   margin-left: 32px;
+  text-decoration: none;
+  color: #000;
 }
 
 .header__burger {
-  display: flex;
-  align-items: center;
   width: 24px;
   height: 17px;
   background: #E51937;
@@ -375,7 +375,7 @@ header {
   font-size: 70px;
   line-height: 85px;
   margin-left: 72px;
-  margin-top: 99px;
+  margin-top: 98px;
   position: relative;
 }
 
@@ -387,8 +387,6 @@ header {
 }
 
 .content {
-  display: flex;
-  align-items: center;
   width: 438px;
   height: 898px;
   background: url("./images/aside1.png");
@@ -397,100 +395,74 @@ header {
   position: relative;
 }
 
-.content__right  {
+.content__box {
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.content__right {
   color: #fff;
   font-weight: 500;
   font-size: 15px;
   line-height: 18px;
   width: 316px;
   height: 206px;
-  margin-top: -352px;
-  margin-left: -389px;
-}
-
-.content__headline {
-  width: 438px;
-  height: 40px;
+  margin-top: -9px;
+  margin-left: 51px;
 }
 
 .content__title {
-  display: flex;
-  align-items: center;
-  margin-top: -379px;
-  margin-left: 50px;
+  margin-top: 51px;
+  margin-left: -20px;
   color: #fff;
   font-size: 30px;
   line-height: 37px;
   white-space: nowrap;
 }
 
-.content__crisper {
-  display: flex;
-  align-items: center;
-  margin: 0 auto;
-}
-
 .content__smart {
-  display: flex;
-  align-items: center;
-  margin-left: -387px;
-  margin-top: -120px;
+  margin-left: 50px;
+  margin-top: 36px;
 }
 
 .content__wifi {
-  display: flex;
-  align-items: center;
-  margin-left: -189px;
-  margin-top: 90px;
+  margin-left: 49px;
+  margin-top: 31px;
 }
 
 .content__battery {
-  display: flex;
-  align-items: center;
-  margin-left: -265px;
-  margin-top: 280px;
-}
-
-.content__bottom {
-  display: flex;
-  align-items: center;
-  margin: 0 auto;
+  margin-left: 50px;
+  margin-top: 18px;
 }
 
 .content__disk {
-  display: flex;
-  align-items: center;
-  margin-left: -390px;
-  margin-top: 735px;
+  position: absolute;
+  margin-left: 48px;
+  margin-top: 805px;
 }
 
 .content__i {
-  display: flex;
-  align-items: center;
-  margin-left: -12px;
-  margin-top: 735px;
+  position: absolute;
+  margin-left: 56px;
+  margin-top: 806px;
 }
 
 .content__text {
-  display: flex;
-  align-items: center;
-  margin-left: 17px;
-  margin-top: 735px;
+  position: absolute;
+  margin-left: 78px;
+  margin-top: 808px;
 }
 
 .content__click {
-  display: flex;
-  align-items: center;
   width: 160px;
   height: 40px;
   border: 2px solid #fff;
   box-sizing: border-box;
   color: #fff;
   background: #e51937;
-  margin-left: 33px;
-  margin-top: 736px;
+  margin-left: 235px;
+  margin-top: 170px;
 }
 
 .content__snap {
@@ -500,21 +472,21 @@ header {
 }
 
 .container {
-  width: 450px;
-  height: 900px;
+  width: 438px;
+  height: 1000px;
   background: url("./images/aside1.png");
   margin-left: -5px;
 }
 
 .container__aside {
   display: flex;
-  align-items: center;
-  margin: 0 auto;
+ flex-direction: column;
+ margin: 0 auto;
 }
 
 .container__title {
-  margin-top: -750px;
-  margin-left: 30px;
+  margin-top: 53px;
+  margin-left: 52px;
   color: #fff;
   font-size: 30px;
   line-height: 37px;
@@ -527,56 +499,58 @@ header {
   font-weight: 500;
   font-size: 15px;
   line-height: 18px;
-  width: 316px;
+  width: 330px;
   height: 206px;
-  margin-top: -250px;
-  margin-left: -50px;
+  margin-top: -35px;
+  margin-left: 50px;
 }
 
 .container__title-center {
   color: #fff;
-  margin-top: 190px;
-  margin-left: -270px;
+  margin-top: -42px;
+  margin-left: 53px;
+  font-size: 30px;
+  line-height: 37px;
 }
 
 .container__front {
-  margin-top: 300px;
-  margin-left: -260px;
+  margin-top: 10px;
+  margin-left: 53px;
 }
 
 .container__stars {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(5, 40px);
+  grid-template-rows: repeat(5, 37px);
   width: 150px;
   height: 300px;
-  margin-top: 600px;
-  margin-left: 300px;
+  margin-top: -171px;
+  margin-left: 202px;
 }
 
 .container__side {
-  margin-top: 400px;
-  margin-left: -88px;
+  margin-top: 14px;
+  margin-left: 53px;
 }
 
 .container__side-discription {
-  margin-top: 500px;
-  margin-left: -63px;
+  margin-top: 20px;
+  margin-left: 53px;
 }
 
 .container__driver {
-  margin-top: 600px;
-  margin-left: -116px;
+  margin-top: 18px;
+  margin-left: 53px;
 }
 
 .container__passenger {
-  margin-top: 700px;
-  margin-left: -102px;
+  margin-top: 18px;
+  margin-left: 53px;
 }
 
 .container__center {
-  margin-top: 700px;
-  margin-left: 0;
+  margin-top: -30px;
+  margin-left: 63px;
   width: 400px;
   height: 60px;
 }
@@ -589,18 +563,21 @@ header {
 }
 
 .container__disk {
-  margin-left: 50px;
-  margin-top: 900px;
+  position: absolute;
+  margin-left: 35px;
+  margin-top: 811px;
 }
 
 .container__i {
-  margin-left: -13px;
-  margin-top: 900px;
+  position: absolute;
+  margin-left: 44px;
+  margin-top: 812px;
 }
 
 .container__key {
-  margin-left: 20px;
-  margin-top: 900px;
+  position: absolute;
+  margin-left: 64px;
+  margin-top: 813px;
 }
 
 .container__click {
@@ -610,17 +587,17 @@ header {
   box-sizing: border-box;
   color: #fff;
   background: #e51937;
-  margin-left: 0;
-  margin-top: 0;
+  margin-left: 222px;
+  margin-top: 85px;
 }
 
 .container__snap {
-  margin-left: 20px;
+  margin-left: 0;
 }
 
 .underside__car {
   display: flex;
   align-items: center;
-  margin-left: 300px;
-  margin-top: -750px;
+  margin-left: 337px;
+  margin-top: -827px;
 }
