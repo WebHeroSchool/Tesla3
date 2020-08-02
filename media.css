@@ -1,0 +1,10 @@
+@media (min-width: 1800px;) {
+	..header__menu {
+		font-size: 15px;
+	}
+}
+@media (min-width: 1660px;) {
+	.header__menu {
+		font-size: 13px;
+	}
+}

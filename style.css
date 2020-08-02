@@ -8,61 +8,62 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 1800px;
   height: 40px;
+  padding-right:10px; 
+  padding-left: 10px;
+  margin-bottom: 60px;
 }
 
 .header__logo {
-  display: inline-block;
   width: 166px;
   height: 51px;
   background: url(./images/logo.png);
+  margin-left: 24px;
   margin-top: 40px
 }
 
 .header__menu {
-  display: flex;
-  align-items: flex-start;
-  width: 600px;
   height: 59px;
-  margin-top: 80px;
   font-size: 15px;
+  margin-top: 40px;
+  margin-right: 184px;
 }
 
 .menu__link_modelS {
-  margin-left: 2px;
-  margin-top: 0;
+  margin-right: 60px;
   text-decoration: none;
   color: #e51937;
 }
 
+.header__line {
+  position: relative;
+  top: 32px;
+}
+
 .top__line {
-  position: absolute;
   width: 60px;
   height: 2px;
-  left: 467.86px;
-  top: 65px
 }
 
 .menu__link_modelX {
-  margin-left: 64px;
+  margin-right: 22px;
   text-decoration: none;
   color: #000;
 }
 
 .menu__link_model3 {
-  margin-left: 25px;
+  margin-right: 40px;
   text-decoration: none;
   color: #000;
 }
 .menu__link_roadster{
-  margin-left: 44px;
+  margin-right: 42px;
   text-decoration: none;
   color: #000;
 }
 
 .menu__link_energy {
-  margin-left: 48px;
+  margin-right: 218px;
   text-decoration: none;
   color: #000;
 }
@@ -71,92 +72,72 @@ header {
   margin-top: 5px;
 }
 
-.header__right {
-  display: flex;
-  justify-content: start;
-  margin-left: 150px;
-  margin-top: 43px;
-  font-size: 15px;
-}
-
 .menu__link_shop {
-  margin-left: -39px;
+  margin-right: 25px;
   text-decoration: none;
   color: #000;
 }
 
 .menu__link_entrance {
-  margin-left: 32px;
+  margin-right: 27px;
   text-decoration: none;
   color: #000;
 }
 
 .header__burger {
+  position: relative;
   width: 24px;
   height: 17px;
   background: #E51937;
   background: url(./images/Vector.png);
-  margin-left: 30px;
   border-right: 0;
   border-left: 0;
   border-bottom: 0;
+  margin-right: 0;
 } 
 
-.top__title {
+.top {
   display: flex;
-  align-items: center;
-  width: 370px;
+  flex-direction: column;
+}
+
+.top__title {
+  text-align: center;
   height: 10px;
-  left: 535px;
   font-weight: 600;
   font-size: 90px;
   line-height: 10px;
   color: #000;
-  margin-left: 527px;
-  margin-bottom: 40px;
-  margin-top: 135px;
+  margin-bottom: 26px;
+  margin-right: 142px;
 }
 
 .top__subtitle {
-  display: flex;
-  align-items: center;
-  width: 250px;
+  text-align: center;
   height: 16px;
-  left: 600px;
   font-weight: normal;
   font-size: 15px;
   line-height: 18px;
   color: #000;
-  margin-left: 590px;
-  margin-top: 43px;
-}
-
-.top__avto {
-  display: flex;
-  align-items: center;
-  width: 968px;
-  height: 450px;
-  margin-left: 190px;
-  margin-top: -323px;
+  margin-right: 142px;
 }
 
 .top__fon {
-  display: flex;
-  align-items: center;
-  width: 1514px;
-  height: 467px;
-  background: url("./images/fon.png");
-  margin-top: -131px;
-  margin-left: -10px;
+  position: relative;
+  height: 595px;
+  bottom: 132px;
+  right: 8px;
+}
+
+.top__avto {
 }
 
 .other {
   display: flex;
   justify-content: start;
   flex-flow: row nowrap;
-  width: 1000px;
   height: 40px;
-  margin-left: 200px;
+ 
 }
 
 .other__speedometr {
