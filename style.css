@@ -129,15 +129,11 @@ header {
   right: 8px;
 }
 
-.top__avto {
-}
-
 .other {
   display: flex;
   justify-content: start;
   flex-flow: row nowrap;
   height: 40px;
- 
 }
 
 .other__speedometr {
