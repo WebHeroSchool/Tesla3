@@ -1,6 +1,138 @@
-@media (min-width: 1064px;) {
+@media (max-width: 1550px) {
+  .other {
+    display: flex;
+    flex-direction: column;
+    height: 40px;
+    padding-right: 483px;
+    padding-left: 309px;
+    padding-bottom: 30px;
+  }
+
+  .other__speedometr {
+  
+  }
+
+  .other__testdrive {
+  
+  }
+
+  .other__click {
+  
+  }
+
+  .center__v {
+    padding-top: 100px;
+  }
+
+  .other__right {
+  }
+}
+
+@media (max-width: 1453px) {
+  .middle__title {
+    right: 0px;
+    top:150px;
+  }
+
+  .content {
+    left: 0;
+    bottom: 0;
+    padding-left: 500px;
+    padding-right: 500px;
+  }
+
+  .container {
+  width: 438px;
+  height: 1000px;
+  background: url("./images/aside1.png");
+  }
+}
+
+
+@media (max-width: 1335px) {
 	.menu__link_modelS {
 		display: none;
 	}
+
+  .header__line {
+    opacity: 0;
+  }
+
+  .top__subtitle {
+    margin-bottom: 100px;
+  }
 }
 
+@media (max-width: 1202px) {
+  .menu__link_modelX {
+    display: none;
+  }
+}
+
+@media (max-width: 1114px) {
+  .menu__link_model3 {
+    display: none;
+  }
+}
+
+@media (max-width: 1006px) {
+  .menu__link_roadster {
+    display: none;
+  }
+
+  .header__burger {
+    position: absolute;
+    width: 35.23px;
+    height: 24px;
+    background: url(./images/icon_burg.png);
+  }
+
+.header__logo {
+  margin-left: 0;
+  }
+
+header {
+    margin-bottom: 50px;
+  }
+
+  .top__fon{
+  width: 768px;
+  height: 438px
+  }
+}
+
+@media (max-width: 950px) {
+  .menu__link_energy {
+    display: none;
+  }
+
+  .top__fon{
+  width: 768px;
+  height: 438px
+  }
+}
+
+@media (max-width: 946px) {
+  .menu__link_shop {
+    display: none;
+  }
+
+  .menu__link_entrance {
+    opacity: 0;
+  }
+
+  .top__fon{
+  width: 768px;
+  height: 438px
+  }
+}
+
+@media (max-width: 928px) {
+  .top__title {
+    margin-right: 160px;
+  }
+
+  header {
+    margin-bottom: 84px;
+  }
+}
