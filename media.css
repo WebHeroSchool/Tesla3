@@ -1,33 +1,16 @@
 @media (max-width: 1550px) {
-  .other {
+  /*.other {
     display: flex;
     flex-direction: column;
-    height: 40px;
-    padding-right: 483px;
-    padding-left: 309px;
-    padding-bottom: 30px;
-  }
+  }*/
 
-  .other__speedometr {
   
-  }
-
-  .other__testdrive {
-  
-  }
-
-  .other__click {
-  
-  }
-
   .center__v {
     padding-top: 100px;
   }
-
-  .other__right {
-  }
 }
 
+  
 @media (max-width: 1453px) {
   .middle__title {
     right: 0px;
@@ -42,9 +25,13 @@
   }
 
   .container {
-  width: 438px;
-  height: 1000px;
-  background: url("./images/aside1.png");
+  max-width: 100%;
+  bottom: 0px;
+  top: 900px;
+  }
+  .underside {
+  bottom: 1000px;
+  left: 0px;
   }
 }
 

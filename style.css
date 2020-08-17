@@ -148,25 +148,160 @@ header {
   padding-right: 483px;
   padding-left: 309px;
   padding-bottom: 30px;
- 
 }
 
 .other__speedometr {
- 
+ position: absolute;
+}
+
+.other__tab {
+  position: relative;
+  right: 42px;
+  bottom: 10px;
+}
+
+.other__strel {
+  position: relative;
+  right: 60px;
+  bottom: 14px;
+}
+
+.other__text-left {
+  display: flex;
+  flex-direction: column;
+  padding-left: 60px;
+}
+
+.other__left {
+  font-size: 35px;
+  line-height: 43px;
+}
+
+.other__sec {
+  position: relative;
+  left: 55px;
+  bottom: 23px;
+}
+
+.other__bottom-l {
+  position: absolute;
+  margin-top: 35px;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.other__center {
+  position: absolute;
+  margin: 0 auto;
+  padding-left: 170px;
+}
+
+.other__vector5 {
+  position: absolute;
+  z-index: 2;
+}
+
+.other__trassa {
+  position: relative;
+  right: 2px;
+  z-index: 1;
+}
+
+.other__ellipse-top {
+  position: relative;
+  bottom: 42px;
+  right: 13px;
+  z-index: 2
+}
+
+.other__ellipse-bot {
+  position: relative;
+  right: 43px;
+  top: 1px;
+  z-index: 2
+}
+
+.other__point-top {
+  position: relative;
+  right: 36px;
+  bottom: 44px;
+  z-index: 3
+}
+
+.other__point-bot {
+  position: relative;
+  right: 62px;
+  bottom: 1px;
+  z-index: 3
+}
+
+.other__next-center {
+  display: flex;
+  flex-direction: column;
+}
+
+.other__text-center {
+  font-size: 35px;
+  line-height: 43px;
+}
+
+.other__km {
+  position: relative;
+  left: 68px;
+  bottom: 23px;
+}
+
+.other__bottom-с {
+  position: absolute;
+  margin-top: 36px;
+  font-size: 12px;
+  line-height: 15px;
 }
 
 .other__right {
   display: flex;
   align-items: center;
+  padding-right: 50px;
 }
 
-.other__testdrive {
-  margin-right: 20px;
-  }
-
-.other__click {
+.other__icon {
   display: flex;
   align-items: center;
+}
+
+.other__link_testdrive {
+  position: relative;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 16px;
+  color: #000000;
+  bottom: 5px;
+  right: 10px;
+  margin-right: 50px;
+}
+
+.other__vector3 {
+  position: relative;
+  bottom: 5px;
+}
+
+.other__vector4 {
+  position: relative;
+  right: 19px;
+  bottom: 1px;
+}
+.other__point3 {
+  position: relative;
+  right: 29px;
+  bottom: 7px;
+}
+
+.other__click {
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 16px;
+  text-align: center;
   width: 160px;
   height: 40px;
   border: 2px solid #e51937;
@@ -303,9 +438,10 @@ header {
 
 .container {
   position: relative;
-  width: 438px;
+  max-width: 438px;
   height: 1000px;
   background: url("./images/aside1.png");
+  bottom: 900px;
 }
 
 .container__aside {
@@ -425,9 +561,19 @@ header {
   margin-left: 0;
 }
 
-.underside__car {
+.underside {
   display: flex;
   align-items: center;
-  margin-left: 337px;
-  margin-top: -827px;
+  position: relative;
+  margin: 0 auto;
+  background: url("./images/ModelSback.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  bottom: 1815px;
+  left: 335px;
+}
+
+.underside__car {
+  max-width: 100%;
+
 }
