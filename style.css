@@ -131,9 +131,8 @@ header {
 }
 
 .top__fon {
- position: relative;
- right: 10px;
- bottom: 130px;
+ position: inherit;
+ margin-bottom: 55px;
 }
 
 .top__avto{
@@ -142,34 +141,42 @@ header {
 
 .other {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   height: 40px;
-  padding-right: 483px;
+  padding-right: 356px;
   padding-left: 309px;
   padding-bottom: 30px;
 }
 
+.other__block1 {
+  display: inline-block;
+
+}
+
 .other__speedometr {
- position: absolute;
+ position: inherit;
+}
+
+.other__kontur {
+  display: block;
+  margin-right: 10px;
 }
 
 .other__tab {
   position: relative;
-  right: 42px;
-  bottom: 10px;
+  left: 16px;
+  bottom: 31px;
 }
 
 .other__strel {
   position: relative;
-  right: 60px;
-  bottom: 14px;
+  bottom: 34px;
+  right: 2px;
 }
 
 .other__text-left {
   display: flex;
   flex-direction: column;
-  padding-left: 60px;
 }
 
 .other__left {
@@ -184,16 +191,14 @@ header {
 }
 
 .other__bottom-l {
-  position: absolute;
-  margin-top: 35px;
+  position: relative;
   font-size: 12px;
   line-height: 15px;
+  bottom: 17px;
 }
 
 .other__center {
-  position: absolute;
-  margin: 0 auto;
-  padding-left: 170px;
+  position: inherit;
 }
 
 .other__vector5 {
@@ -252,20 +257,14 @@ header {
 }
 
 .other__bottom-с {
-  position: absolute;
-  margin-top: 36px;
+  position: relative;
   font-size: 12px;
   line-height: 15px;
-}
-
-.other__right {
-  display: flex;
-  align-items: center;
-  padding-right: 50px;
+  bottom: 17px;
 }
 
 .other__icon {
-  display: flex;
+  display: inline-flex;
   align-items: center;
 }
 
@@ -276,8 +275,6 @@ header {
   font-size: 13px;
   line-height: 16px;
   color: #000000;
-  bottom: 5px;
-  margin-right: 50px;
 }
 
 .other__vector35 {
