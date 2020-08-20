@@ -142,10 +142,9 @@ header {
 .other {
   display: flex;
   justify-content: space-around;
-  height: 40px;
-  padding-right: 356px;
-  padding-left: 309px;
-  padding-bottom: 30px;
+  margin: 0 auto;
+  max-width: 100%;
+  padding-right: 328px;
 }
 
 .other__block1 {
@@ -157,21 +156,10 @@ header {
  position: inherit;
 }
 
-.other__kontur {
-  display: block;
-  margin-right: 10px;
-}
-
-.other__tab {
-  position: relative;
-  left: 16px;
-  bottom: 31px;
-}
-
-.other__strel {
-  position: relative;
-  bottom: 34px;
-  right: 2px;
+.other__speed {
+  position: absolute;
+  width: 56px;
+  height: 44.13px;
 }
 
 .other__text-left {
@@ -185,9 +173,8 @@ header {
 }
 
 .other__sec {
-  position: relative;
-  left: 55px;
-  bottom: 23px;
+  font-size: 20px;
+  line-height: 24px;
 }
 
 .other__bottom-l {
@@ -201,43 +188,8 @@ header {
   position: inherit;
 }
 
-.other__vector5 {
+.other__road {
   position: absolute;
-  z-index: 2;
-}
-
-.other__trassa {
-  position: relative;
-  right: 2px;
-  z-index: 1;
-}
-
-.other__ellipse-top {
-  position: relative;
-  bottom: 42px;
-  right: 13px;
-  z-index: 2
-}
-
-.other__ellipse-bot {
-  position: relative;
-  right: 43px;
-  top: 1px;
-  z-index: 2
-}
-
-.other__point-top {
-  position: relative;
-  right: 36px;
-  bottom: 44px;
-  z-index: 3
-}
-
-.other__point-bot {
-  position: relative;
-  right: 62px;
-  bottom: 1px;
-  z-index: 3
 }
 
 .other__next-center {
@@ -251,9 +203,8 @@ header {
 }
 
 .other__km {
-  position: relative;
-  left: 68px;
-  bottom: 23px;
+  font-size: 20px;
+  line-height: 24px;
 }
 
 .other__bottom-с {
@@ -264,8 +215,7 @@ header {
 }
 
 .other__icon {
-  display: inline-flex;
-  align-items: center;
+ position: absolute;
 }
 
 .other__link_testdrive {
@@ -275,22 +225,14 @@ header {
   font-size: 13px;
   line-height: 16px;
   color: #000000;
+  right: 40px;
 }
 
-.other__vector3 {
+.other__icon-speed {
   position: relative;
   bottom: 5px;
-}
-
-.other__vector4 {
-  position: relative;
-  right: 19px;
-  bottom: 1px;
-}
-.other__point3 {
-  position: relative;
-  right: 29px;
-  bottom: 7px;
+  width: 22px;
+  height: 22px;
 }
 
 .other__click {
