@@ -132,7 +132,7 @@ header {
 
 .top__fon {
  position: inherit;
- margin-bottom: 55px;
+ margin-bottom: 40px;
 }
 
 .top__avto{
@@ -144,21 +144,33 @@ header {
   justify-content: space-around;
   margin: 0 auto;
   max-width: 100%;
-  padding-right: 328px;
+  padding: 0 418px 0 270px;
+  padding-bottom: 22px;
 }
 
 .other__block1 {
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  margin-right: 5px;
+}
 
+.other__block2 {
+  display: flex;
+  align-items: center;
+  margin-right: 26px;
+}
+
+.other__block3 {
+  display: flex;
+  align-items: center;
 }
 
 .other__speedometr {
- position: inherit;
+ margin-right: 10px;
 }
 
 .other__speed {
-  position: absolute;
-  width: 56px;
+  
   height: 44.13px;
 }
 
@@ -178,18 +190,21 @@ header {
 }
 
 .other__bottom-l {
-  position: relative;
+  
   font-size: 12px;
   line-height: 15px;
   bottom: 17px;
 }
 
 .other__center {
-  position: inherit;
+ margin-right: 10px;
+ margin-top: 10px;
+
 }
 
 .other__road {
-  position: absolute;
+  
+
 }
 
 .other__next-center {
@@ -208,31 +223,30 @@ header {
 }
 
 .other__bottom-с {
-  position: relative;
+  
   font-size: 12px;
   line-height: 15px;
   bottom: 17px;
 }
 
 .other__icon {
- position: absolute;
+ display: flex;
+ align-items: center;
+ margin-right: 50px;
 }
 
 .other__link_testdrive {
-  position: relative;
   text-decoration: none;
   font-weight: bold;
-  font-size: 13px;
+  font-size: 12px;
   line-height: 16px;
+  text-align: center;
+  text-transform: uppercase;
   color: #000000;
-  right: 40px;
 }
 
 .other__icon-speed {
-  position: relative;
-  bottom: 5px;
-  width: 22px;
-  height: 22px;
+  margin-right: 10px;
 }
 
 .other__click {
@@ -246,7 +260,6 @@ header {
   box-sizing: border-box;
   color: #e51937;
   background: #fff;
-  margin-bottom: 15px; 
 }
 
 .other__button {

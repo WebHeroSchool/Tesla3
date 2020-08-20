@@ -1,12 +1,9 @@
 @media (max-width: 1550px) {
-  /*.other {
-    display: flex;
-    flex-direction: column;
-  }*/
+  
 
   
   .center__v {
-    padding-top: 100px;
+    
   }
 }
 
@@ -37,7 +34,11 @@
 
 
 @media (max-width: 1335px) {
-	.menu__link_modelS {
+  .other {
+    
+  }
+
+  .menu__link_modelS {
 		display: none;
 	}
 
