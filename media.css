@@ -17,8 +17,7 @@
   .content {
     left: 0;
     bottom: 0;
-    padding-left: 500px;
-    padding-right: 500px;
+    width: 100% ;
   }
 
   .container {
@@ -61,6 +60,10 @@
 @media (max-width: 1114px) {
   .menu__link_model3 {
     display: none;
+  }
+
+  .other {
+    padding: 0 318px 0 170px;
   }
 }
 
@@ -114,4 +117,15 @@ header {
   header {
     margin-bottom: 84px;
   }
+
+.other {
+    padding: 0 218px 0 70px;
+  } 
+}
+
+@media (max-width: 664px) {
+  
+.other {
+    padding: 0 118px 0 50px;
+  } 
 }

@@ -148,10 +148,15 @@ header {
   padding-bottom: 22px;
 }
 
+.other__block0 {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
 .other__block1 {
   display: flex;
   align-items: center;
-  margin-right: 5px;
+  margin-right: 15px;
 }
 
 .other__block2 {
@@ -522,9 +527,10 @@ header {
   background-position: top;
   bottom: 1815px;
   left: 335px;
+  max-width: 100%;
 }
 
 .underside__car {
-  max-width: 100%;
+  
 
 }
