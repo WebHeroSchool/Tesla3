@@ -1,0 +1,6 @@
+ 
+
+.menu__link_modelS:hover, .menu__link_modelX:hover, .menu__link_model3:hover, .menu__link_roadster:hover, .menu__link_energy:hover, .menu__link_shop:hover, .menu__link_entrance:hover {
+	color: blue;
+}
+

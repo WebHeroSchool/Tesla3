@@ -1,0 +1,131 @@
+@media (max-width: 1550px) {
+  
+
+  
+  .center__v {
+    
+  }
+}
+
+  
+@media (max-width: 1453px) {
+  .middle__title {
+    right: 0px;
+    top:150px;
+  }
+
+  .content {
+    left: 0;
+    bottom: 0;
+    width: 100% ;
+  }
+
+  .container {
+  max-width: 100%;
+  bottom: 0px;
+  top: 900px;
+  }
+  .underside {
+  bottom: 1000px;
+  left: 0px;
+  }
+
+  .other {
+    flex-wrap: wrap;
+  }
+}
+
+
+@media (max-width: 1335px) {
+  
+  .menu__link_modelS {
+		display: none;
+	}
+
+  .header__line {
+    opacity: 0;
+  }
+
+  .top__subtitle {
+   
+  }
+}
+
+@media (max-width: 1202px) {
+  .menu__link_modelX {
+    display: none;
+  }
+}
+
+@media (max-width: 1114px) {
+  .menu__link_model3 {
+    display: none;
+  }
+
+  .other {
+    padding: 0 318px 0 170px;
+  }
+}
+
+@media (max-width: 1006px) {
+  .menu__link_roadster {
+    display: none;
+  }
+
+  .header__burger {
+    position: absolute;
+    width: 35.23px;
+    height: 24px;
+    background: url(./images/icon_burg.png);
+  }
+
+.header__logo {
+  margin-left: 0;
+  }
+
+header {
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 950px) {
+  .menu__link_energy {
+    display: none;
+  }
+
+  .top__subtitle {
+    margin-bottom: 50px;
+  }
+
+}
+
+@media (max-width: 946px) {
+  .menu__link_shop {
+    display: none;
+  }
+
+  .menu__link_entrance {
+    opacity: 0;
+  }
+}
+
+@media (max-width: 928px) {
+  .top__title {
+    margin-right: 160px;
+  }
+
+  header {
+    margin-bottom: 84px;
+  }
+
+.other {
+    padding: 0 218px 0 70px;
+  } 
+}
+
+@media (max-width: 664px) {
+  
+.other {
+    padding: 0 118px 0 50px;
+  } 
+}
